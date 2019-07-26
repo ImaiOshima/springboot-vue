@@ -1,0 +1,105 @@
+15:55:47.566 [main] INFO  com.wyh.demo.DemoApplication - Starting DemoApplication on DESKTOP-1C05UER with PID 14392 (C:\Users\61635\IdeaProjects\springboot-vue\target\classes started by 61635 in C:\Users\61635\IdeaProjects\springboot-vue)
+15:55:47.587 [main] DEBUG com.wyh.demo.DemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+15:55:47.588 [main] INFO  com.wyh.demo.DemoApplication - The following profiles are active: test
+15:55:48.288 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+15:55:49.126 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+15:55:49.151 [main] DEBUG io.undertow.session - Setting default session timeout to 1800
+15:55:49.161 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+15:55:49.209 [main] DEBUG io.undertow.session - Registered session listener io.undertow.servlet.core.SessionListenerBridge@4b960b5b
+15:55:49.245 [main] DEBUG io.undertow.session - Setting default session timeout to 1800
+15:55:49.384 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+15:55:49.399 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+15:55:49.823 [main] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+15:55:49.823 [main] DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+15:55:49.826 [main] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+15:55:49.826 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+15:55:49.827 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+15:55:49.827 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+15:55:49.828 [main] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+15:55:49.828 [main] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+15:55:49.828 [main] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+15:55:49.829 [main] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+15:55:49.829 [main] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+15:55:49.833 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+15:55:49.833 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+15:55:49.833 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+15:55:49.834 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+15:55:49.834 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+15:55:50.278 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@755a7218
+15:55:50.285 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+15:55:50.300 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+15:55:50.336 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 8081
+15:55:50.336 [XNIO-1 I/O-2] DEBUG org.xnio.nio - Started channel thread 'XNIO-1 I/O-2', selector sun.nio.ch.WindowsSelectorImpl@35f1ec89
+15:55:50.336 [XNIO-1 I/O-1] DEBUG org.xnio.nio - Started channel thread 'XNIO-1 I/O-1', selector sun.nio.ch.WindowsSelectorImpl@5e6d43eb
+15:55:50.337 [XNIO-1 I/O-3] DEBUG org.xnio.nio - Started channel thread 'XNIO-1 I/O-3', selector sun.nio.ch.WindowsSelectorImpl@311e46ff
+15:55:50.337 [XNIO-1 I/O-4] DEBUG org.xnio.nio - Started channel thread 'XNIO-1 I/O-4', selector sun.nio.ch.WindowsSelectorImpl@57f73be2
+15:55:50.338 [XNIO-1 Accept] DEBUG org.xnio.nio - Started channel thread 'XNIO-1 Accept', selector sun.nio.ch.WindowsSelectorImpl@4a95de88
+15:55:50.371 [main] INFO  com.wyh.demo.DemoApplication - Started DemoApplication in 3.411 seconds (JVM running for 5.503)
+15:55:56.074 [XNIO-1 task-1] DEBUG io.undertow.request.security - Attempting to authenticate /, authentication required: false
+15:55:56.075 [XNIO-1 task-1] DEBUG io.undertow.request.security - Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@19c50dfd for /
+15:55:56.075 [XNIO-1 task-1] DEBUG io.undertow.request.security - Authentication result was ATTEMPTED for /
+15:55:56.076 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:55:56.123 [XNIO-1 task-1] DEBUG io.undertow.session - Created session with id UNmipMO98YasWaw8ekOy8GqJiYoUksf4KuKL5p1E for exchange HttpServerExchange{ GET /}
+15:55:56.145 [XNIO-1 task-2] DEBUG io.undertow.request.security - Attempting to authenticate /login, authentication required: false
+15:55:56.145 [XNIO-1 task-2] DEBUG io.undertow.request.security - Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@19c50dfd for /login
+15:55:56.145 [XNIO-1 task-2] DEBUG io.undertow.request.security - Authentication result was ATTEMPTED for /login
+15:56:05.535 [XNIO-1 task-3] DEBUG io.undertow.request.security - Attempting to authenticate /login, authentication required: false
+15:56:05.535 [XNIO-1 task-3] DEBUG io.undertow.request.security - Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@19c50dfd for /login
+15:56:05.535 [XNIO-1 task-3] DEBUG io.undertow.request.security - Authentication result was ATTEMPTED for /login
+15:56:05.549 [XNIO-1 task-3] DEBUG io.undertow.session - Changing session id UNmipMO98YasWaw8ekOy8GqJiYoUksf4KuKL5p1E to oAroUa_ydPGKVi53l2BAAcxI9wXy3bnWW0H1P9EY
+15:56:05.555 [XNIO-1 task-4] DEBUG io.undertow.request.security - Attempting to authenticate /, authentication required: false
+15:56:05.555 [XNIO-1 task-4] DEBUG io.undertow.request.security - Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@19c50dfd for /
+15:56:05.555 [XNIO-1 task-4] DEBUG io.undertow.request.security - Authentication result was ATTEMPTED for /
+15:56:45.553 [XNIO-1 task-5] DEBUG io.undertow.request.security - Attempting to authenticate /admin/user, authentication required: false
+15:56:45.553 [XNIO-1 task-5] DEBUG io.undertow.request.security - Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@19c50dfd for /admin/user
+15:56:45.554 [XNIO-1 task-5] DEBUG io.undertow.request.security - Authentication result was ATTEMPTED for /admin/user
+15:56:55.353 [XNIO-1 task-6] DEBUG io.undertow.request.security - Attempting to authenticate /admin/hello, authentication required: false
+15:56:55.353 [XNIO-1 task-6] DEBUG io.undertow.request.security - Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@19c50dfd for /admin/hello
+15:56:55.353 [XNIO-1 task-6] DEBUG io.undertow.request.security - Authentication result was ATTEMPTED for /admin/hello
+15:57:04.916 [XNIO-1 task-7] DEBUG io.undertow.request.security - Attempting to authenticate /user/hello, authentication required: false
+15:57:04.916 [XNIO-1 task-7] DEBUG io.undertow.request.security - Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@19c50dfd for /user/hello
+15:57:04.917 [XNIO-1 task-7] DEBUG io.undertow.request.security - Authentication result was ATTEMPTED for /user/hello
+15:57:09.638 [XNIO-1 task-8] DEBUG io.undertow.request.security - Attempting to authenticate /dba/hello, authentication required: false
+15:57:09.638 [XNIO-1 task-8] DEBUG io.undertow.request.security - Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@19c50dfd for /dba/hello
+15:57:09.638 [XNIO-1 task-8] DEBUG io.undertow.request.security - Authentication result was ATTEMPTED for /dba/hello
+15:58:04.913 [XNIO-1 I/O-3] DEBUG io.undertow.request - Timing out idle connection from /0:0:0:0:0:0:0:1:64059
+15:58:09.700 [XNIO-1 I/O-4] DEBUG io.undertow.request - Timing out idle connection from /0:0:0:0:0:0:0:1:63986
+15:59:45.632 [XNIO-1 task-9] DEBUG io.undertow.request.security - Attempting to authenticate /user/hello, authentication required: false
+15:59:45.632 [XNIO-1 task-9] DEBUG io.undertow.request.security - Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@19c50dfd for /user/hello
+15:59:45.632 [XNIO-1 task-9] DEBUG io.undertow.request.security - Authentication result was ATTEMPTED for /user/hello
+15:59:46.382 [XNIO-1 task-10] DEBUG io.undertow.request.security - Attempting to authenticate /admin/hello, authentication required: false
+15:59:46.382 [XNIO-1 task-10] DEBUG io.undertow.request.security - Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@19c50dfd for /admin/hello
+15:59:46.382 [XNIO-1 task-10] DEBUG io.undertow.request.security - Authentication result was ATTEMPTED for /admin/hello
+15:59:46.910 [XNIO-1 task-11] DEBUG io.undertow.request.security - Attempting to authenticate /admin/user, authentication required: false
+15:59:46.910 [XNIO-1 task-11] DEBUG io.undertow.request.security - Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@19c50dfd for /admin/user
+15:59:46.910 [XNIO-1 task-11] DEBUG io.undertow.request.security - Authentication result was ATTEMPTED for /admin/user
+15:59:47.377 [XNIO-1 task-12] DEBUG io.undertow.request.security - Attempting to authenticate /, authentication required: false
+15:59:47.377 [XNIO-1 task-12] DEBUG io.undertow.request.security - Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@19c50dfd for /
+15:59:47.377 [XNIO-1 task-12] DEBUG io.undertow.request.security - Authentication result was ATTEMPTED for /
+15:59:47.623 [XNIO-1 task-13] DEBUG io.undertow.request.security - Attempting to authenticate /login, authentication required: false
+15:59:47.623 [XNIO-1 task-13] DEBUG io.undertow.request.security - Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@19c50dfd for /login
+15:59:47.623 [XNIO-1 task-13] DEBUG io.undertow.request.security - Authentication result was ATTEMPTED for /login
+15:59:52.256 [XNIO-1 task-14] DEBUG io.undertow.request.security - Attempting to authenticate /login, authentication required: false
+15:59:52.257 [XNIO-1 task-14] DEBUG io.undertow.request.security - Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@19c50dfd for /login
+15:59:52.257 [XNIO-1 task-14] DEBUG io.undertow.request.security - Authentication result was ATTEMPTED for /login
+15:59:52.258 [XNIO-1 task-14] DEBUG io.undertow.session - Changing session id oAroUa_ydPGKVi53l2BAAcxI9wXy3bnWW0H1P9EY to L6K76O58mLLvFB-0lCDcnemD2KBKuU6cfyAaerkE
+15:59:52.267 [XNIO-1 task-15] DEBUG io.undertow.request.security - Attempting to authenticate /, authentication required: false
+15:59:52.268 [XNIO-1 task-15] DEBUG io.undertow.request.security - Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@19c50dfd for /
+15:59:52.269 [XNIO-1 task-15] DEBUG io.undertow.request.security - Authentication result was ATTEMPTED for /
+15:59:58.409 [XNIO-1 task-16] DEBUG io.undertow.request.security - Attempting to authenticate /admin/hello, authentication required: false
+15:59:58.409 [XNIO-1 task-16] DEBUG io.undertow.request.security - Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@19c50dfd for /admin/hello
+15:59:58.410 [XNIO-1 task-16] DEBUG io.undertow.request.security - Authentication result was ATTEMPTED for /admin/hello
+16:00:01.945 [XNIO-1 task-17] DEBUG io.undertow.request.security - Attempting to authenticate /dba/hello, authentication required: false
+16:00:01.945 [XNIO-1 task-17] DEBUG io.undertow.request.security - Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@19c50dfd for /dba/hello
+16:00:01.945 [XNIO-1 task-17] DEBUG io.undertow.request.security - Authentication result was ATTEMPTED for /dba/hello
+16:00:06.528 [XNIO-1 task-18] DEBUG io.undertow.request.security - Attempting to authenticate /use/hello, authentication required: false
+16:00:06.528 [XNIO-1 task-18] DEBUG io.undertow.request.security - Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@19c50dfd for /use/hello
+16:00:06.528 [XNIO-1 task-18] DEBUG io.undertow.request.security - Authentication result was ATTEMPTED for /use/hello
+16:00:19.355 [XNIO-1 task-19] DEBUG io.undertow.request.security - Attempting to authenticate /user/hello, authentication required: false
+16:00:19.356 [XNIO-1 task-19] DEBUG io.undertow.request.security - Authentication outcome was NOT_ATTEMPTED with method io.undertow.security.impl.CachedAuthenticatedSessionMechanism@19c50dfd for /user/hello
+16:00:19.357 [XNIO-1 task-19] DEBUG io.undertow.request.security - Authentication result was ATTEMPTED for /user/hello
+16:01:19.410 [XNIO-1 I/O-1] DEBUG io.undertow.request - Timing out idle connection from /0:0:0:0:0:0:0:1:64253
+16:01:19.414 [XNIO-1 I/O-3] DEBUG io.undertow.request - Timing out idle connection from /0:0:0:0:0:0:0:1:64215
+16:30:02.699 [XNIO-1 I/O-4] DEBUG io.undertow.request - Timing out idle connection from /0:0:0:0:0:0:0:1:50306
+16:30:19.399 [XNIO-1 task-21] DEBUG io.undertow.session - Invalidating session L6K76O58mLLvFB-0lCDcnemD2KBKuU6cfyAaerkE for exchange null
+16:32:00.103 [XNIO-1 I/O-1] DEBUG io.undertow.request - Timing out idle connection from /0:0:0:0:0:0:0:1:50421

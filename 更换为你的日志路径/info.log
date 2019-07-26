@@ -1,0 +1,8 @@
+15:55:47.566 [main] INFO  com.wyh.demo.DemoApplication - Starting DemoApplication on DESKTOP-1C05UER with PID 14392 (C:\Users\61635\IdeaProjects\springboot-vue\target\classes started by 61635 in C:\Users\61635\IdeaProjects\springboot-vue)
+15:55:47.588 [main] INFO  com.wyh.demo.DemoApplication - The following profiles are active: test
+15:55:49.126 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+15:55:49.161 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+15:55:50.285 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+15:55:50.300 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+15:55:50.371 [main] INFO  com.wyh.demo.DemoApplication - Started DemoApplication in 3.411 seconds (JVM running for 5.503)
+15:55:56.076 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'

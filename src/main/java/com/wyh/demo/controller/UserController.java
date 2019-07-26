@@ -38,7 +38,10 @@ public class UserController {
     }
 
     @PostMapping(value="api/login")
-    public void getLoginUser(@RequestBody User user){
+    public void getLoginUser(){
+        User user = new User();
+        user.setName("zhangsan");
+        user.setPassword("1223");
         System.out.println(user.getName());
         System.out.println(user.getPassword());
     }
