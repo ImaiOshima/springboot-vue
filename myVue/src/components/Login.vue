@@ -49,10 +49,17 @@
             onSubmit(value) {
               this.$refs[value].validate((valid) => {
                 if (valid) {
-
-                  this.$axios({
-                    method:'post',
-                    url:'apis/'
+                 var data = this.qs.stringify({
+                    name:this.username,
+                    password:this.password
+                  })
+                  this.$ajxa.post(
+                    'api/login',
+                   data
+                  ).then((response)=>{
+                    console.log(response);
+                  }).catch((error)=>{
+                    console.log(error);
                   })
                 } else {
                   this.dialogVisible = true;

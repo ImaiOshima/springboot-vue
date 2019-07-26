@@ -8,17 +8,18 @@ import 'element-ui/lib/theme-chalk/index.css';
 import Vuex from 'vuex';
 import store from './store/index';
 import axios from 'axios';
+import qs from 'qs'
 
 //Vue.config.productionTip = false
 Vue.use(ElementUI);
 Vue.use(Vuex);
-Vue.prototype.$http = axios;
+Vue.prototype.$ajxa = axios;
+Vue.prototype.qs = qs;
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
   store,
-  axios,
   components: { App },
   template: '<App/>'
 })

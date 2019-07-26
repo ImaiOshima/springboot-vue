@@ -36,4 +36,10 @@ public class UserController {
         userService.saveUser(user);
         System.out.println(user.getId());
     }
+
+    @PostMapping(value="api/login")
+    public void getLoginUser(@RequestBody User user){
+        System.out.println(user.getName());
+        System.out.println(user.getPassword());
+    }
 }
