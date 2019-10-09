@@ -1,33 +1,40 @@
-<template>
+<template >
   <div>
-    <router-view></router-view>
-    <!--<p>{{numCount}}</p>-->
-    <!--<p>{{count}}</p>-->
-    <!--<el-button type="primary" @click="increment"> + </el-button>-->
-    <!--<el-button type="danger" @click="del"> - </el-button>-->
+    <div class="static" v-bind:class="{active:isActive,'text-danger':hasError}">123</div>
   </div>
 </template>
 
 <script>
-  import {mapState,mapGetters} from 'vuex'
+import Todo from "./components/todo";
 export default {
   name: 'App',
-  computed:{
-    ...mapGetters({
-      numCount: 'doneTodos',
-     count: 'getNum'
-    })
-  },
-  methods:{
-    increment(){
-      this.$store.commit('increment');
+    components: {Todo},
+    data:function(){
+        return {
+            firstName:'akb',
+            lastName:'48',
+            isActive:true,
+            hasError:true
+        }
+      },
+    computed:{
+      fullName:{
+          get:function(){
+              return this.firstName +' '+ this.lastName
+          },
+          set:function(newValue){
+              var names = newValue.splice(' ')
+              this.firstName = names[0]
+              this.lastName = names[names.length - 1]
+          }
+      }
     },
-    del(){
-      if(this.count > 0 ){
-      this.$store.commit('del');
+    methods:{
+      reverseMessage:function(){
+          this.message = this.message.split('').reverse().join('')
+          this.message1 = this.message1.split('').reverse().join('')
       }
     }
-  }
 }
 </script>
 
